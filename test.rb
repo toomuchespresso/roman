@@ -18,5 +18,9 @@ class Test < Minitest::Test
     assert_equal("I", to_roman(1))
   end
 
+  def test_2_returns_II
+    assert_equal("II", to_roman(2))
+  end
+  
 end
 
