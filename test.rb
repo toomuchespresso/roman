@@ -13,6 +13,10 @@ class Test < Minitest::Test
   def test_10_returns_X
     assert_equal("X", to_roman(10))
   end
-  
+
+  def test_1_returns_I
+    assert_equal("I", to_roman(1))
+  end
+
 end
 
