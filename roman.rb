@@ -12,6 +12,6 @@
       500 => "D",
       900 => "CM",
       1000 => "M" }
-      
-      roman[5]
+      # returned the value of the key 5
+      roman[input]
 end
